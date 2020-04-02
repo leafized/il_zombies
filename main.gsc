@@ -1,26 +1,21 @@
 /*
 *    Infinity Loader :: Created By AgreedBog381 && SyGnUs Legends
 *
-*    Project : MW2 Zombie Land
-*    Author : 
-*    Game : MW2
-*    Description : Starts Multiplayer code execution!
+*    Project : IL Zombie Land
+*    Author : Leafized
+*    Game : MW2 + MW3
+*    Description : This mod is my take on the infamous INFECTED gamemode.
+     the reason i'm doing this game mode, is to give players another game
+     mode to play, i hate vanilla COD as it is. Enjoy <3
+     
 *    Date : 4/2/2020 5:25:56 AM
-*
+*    Current Build Version: 0.0.0a
 */
 
 //All MP files are supported, if something doesnt work, let us know!
 #include common_scripts\utility;
 #include maps\mp\_utility;
 #include maps\mp\gametypes\_hud_util;
-
-//Preprocessor Global Chaining
-#define WELCOME_MSG = BASE_MSG + GREEN + PROJECT_TITLE;
-
-//Preprocessor Globals
-#define GREEN = "^2";
-#define BASE_MSG = "Infinity Loader | Project: ";
-#define PROJECT_TITLE = "MW2 Zombie Land";
 
 init()
 {
